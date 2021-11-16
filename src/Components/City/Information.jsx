@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Information = ({Icon,Temp,Sensacion,Min, Max}) => {
+const Information = ({Icon,Temp,Sensacion,Minima, Maxima}) => {
 
   
     return (
@@ -13,11 +13,11 @@ const Information = ({Icon,Temp,Sensacion,Min, Max}) => {
           </div>
           <div className="flex m-3">
           <p className="font-bold text-color5 text-2xl">Min:</p>
-          <p className="text-color5 text-2xl">{{Min}}</p>
+          <p className="text-color5 text-2xl">{{Minima}}</p>
           </div>
           <div className="flex m-3">
           <p className="font-bold text-color5 text-2xl">Max: </p>
-          <p className="text-color5 text-2xl">{Max}</p>
+          <p className="text-color5 text-2xl">{Maxima}</p>
           </div>
           <div className="flex m-3">
           <p className="font-bold text-color5 text-2xl">Sensacion Termica: </p>

@@ -32,8 +32,8 @@ const City = () => {
               Icon={CityInfo.weather[0].icon}
               Temp={((CityInfo.main.temp)-273.15).toFixed(0)}
               Sensacion={((CityInfo.main.feels_like)-273.15).toFixed(2)}
-              Min={((CityInfo.main.temp_min)-273.15).toFixed(2)}
-              Max={((CityInfo.main.temp_max)-273.15).toFixed(2)}
+              Minima={((CityInfo.main.temp_min)-273.15).toFixed(2)}
+              Maxima={((CityInfo.main.temp_max)-273.15).toFixed(2)}
               />
           ) : (
               <Loader/>

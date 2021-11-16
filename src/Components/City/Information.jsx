@@ -13,7 +13,7 @@ const Information = ({Icon,Temp,Sensacion,Minima, Maxima}) => {
           </div>
           <div className="flex m-3">
           <p className="font-bold text-color5 text-2xl">Min:</p>
-          <p className="text-color5 text-2xl">{{Minima}}</p>
+          <p className="text-color5 text-2xl">{Minima}</p>
           </div>
           <div className="flex m-3">
           <p className="font-bold text-color5 text-2xl">Max: </p>
